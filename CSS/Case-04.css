@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+h2{
+    height: 8vh;
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: sticky;
+    margin-top: 0;
+    
+}
