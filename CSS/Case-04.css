@@ -2,12 +2,77 @@ body{
     margin: 0;
 }
 
-h2{
-    height: 8vh;
-    background-color: red;
+.page1{
+    height: 100vh;
+    background-color: white;
+
+}
+
+.page2{
+    height: 100vh;
+    background-color: rgb(95, 175, 224); 
+}
+
+.page3{
+    height: 100vh;
+    background-color:gray; 
+}
+
+.page4{
+    height: 100vh;
+    background-color:rgb(245, 108, 59); 
+}
+
+p{
+    font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position:relative;
+    top: 40%;
+    left: 100%;
+    transform: translate(-50% , -50%);
+}
+
+.card1{
+    width: 100%;
+    padding: 15px; 
+    background-color: red;
+    font-size: 2rem;
     color: white;
+
     position: sticky;
-    margin-top: 0;
-    
+    top: 0;
+}
+
+.card2{
+    width: 100%;
+    padding: 15px; 
+    background-color:rgb(9, 9, 134);
+    font-size: 2rem;
+    color:white;
+
+    position: sticky;
+    top: 0;
+}
+
+.card3{
+    width: 100%;
+    padding: 15px; 
+    background-color:black;
+    font-size: 2rem;
+    color:white;
+
+    position: sticky;
+    top: 0;
+}
+
+.card4{
+    width: 100%;
+    padding: 15px; 
+    background-color:rgb(99, 7, 7);
+    font-size: 2rem;
+    color:white;
+
+    position: sticky;
+    top: 0;
 }
