@@ -13,48 +13,60 @@ body{
 
 #box1{
     background-color: red;
+    border: 1px solid black;
 }
 
 #box2{
     background-color:green;
+    border: 1px solid black;
 }
 
 #box3{
     background-color:rgb(255, 80, 17);
+    border: 1px solid black;
 }
 
 #box4{
     background-color:purple;
+    border: 1px solid black;
 }
 
 #box5{
     background-color:rgb(224, 55, 111);
+    border: 1px solid black;
 }
 
 #box6{
     background-color:blue;
+    border: 1px solid black;
 }
 
 #box7{
     background-color:brown;
+    border: 1px solid black;
 }
 
 #box8{
     background-color: plum;
+    border: 1px solid black;
 }
 
 #box9{
     background-color:rgb(65, 13, 114);
+    border: 1px solid black;
 }
 
 #box10{
     background-color:yellow;
+    border: 1px solid black;
 }
 
 #box11{
     background-color:rgb(105, 164, 184);
+    border: 1px solid black;
 }
 
 #box12{
     background-color:lightskyblue;
+    border: 1px solid black;
 }
