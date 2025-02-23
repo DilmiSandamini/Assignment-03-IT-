@@ -1,10 +1,10 @@
 body{
-    margin:0;
+    margin: 0;
 }
 
-.header{
-    background-color: white;
+header{
     width: 100%;
+    background-color: white;
 
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,6 @@ header > div > img {
     color: black;
     text-decoration: none;
     font-size: 1.2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
 }
 
@@ -35,4 +34,58 @@ ul{
 
     position: relative;
     left: 0;
+}
+
+.main-box{
+    position: relative;
+    background-color: blueviolet;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+#side-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer{
+    width: 100%;
+    padding: 15px;
+    background-color: gray;
+    text-align: center;
+}
+
+/* img{
+    width: 15vw;
+    object-fit: contain;
+} */
+
+.container{
+    width: 76vw;
+    display: flex;
+    justify-content: end;
+
+    position: relative;
+    right: 0;
+}
+
+.white-box{
+    position: relative;
+    top: 2px;
+    background-color: white;
+}
+
+.paragraph{
+    width: 75vw;
+    padding: 1vw;
+}
+
+#box{
+    width: 25vw;
+    height: 300px;
+    border: 1px solid black;
 }
